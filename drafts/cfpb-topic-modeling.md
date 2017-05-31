@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Complaints to the CFPB"
 author: "Brian Austin"
 meta: "CFPB, civic engagement, complaints database"
