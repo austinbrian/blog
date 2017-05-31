@@ -1,0 +1,256 @@
+  STATEFIPS
+The State Federal Information Processing System (FIPS) code
+  STATE
+The State associated with the ZIP code
+  COUNTYFIPS
+3-digit County FIPS code [2]
+  COUNTYNAME
+County name
+  AGI_STUB
+Size of adjusted gross income
+  N1
+Number of returns
+  MARS1
+Number of single returns
+  MARS2
+Number of joint returns
+  MARS4
+Number of head of household returns
+  PREP
+Number of returns with paid preparer's signature
+  N2
+Number of exemptions
+  NUMDEP
+Number of dependents
+  TOTAL_VITA
+Total number of volunteer prepared returns [3]
+  VITA
+Number of volunteer income tax assistance (VITA) prepared returns [3]
+  TCE
+Number of tax counseling for the elderly (TCE) prepared returns [3]
+  A00100
+Adjust gross income (AGI) [4]
+  N02650
+Number of returns with total income
+  A02650
+Total income amount
+  N00200
+Number of returns with salaries and wages
+  A00200
+Salaries and wages amount
+  N00300
+Number of returns with taxable interest
+  A00300
+Taxable interest amount
+  N00600
+Number of returns with ordinary dividends
+  A00600
+Ordinary dividends amount
+  N00650
+Number of returns with qualified dividends
+  A00650
+Qualified dividends amount [5]
+  N00700
+Number of returns with state and local income tax refunds
+  A00700
+State and local income tax refunds amount
+  N00900
+Number of returns with business or professional net income (less loss)
+  A00900
+Business or professional net income (less loss) amount
+  N01000
+Number of returns with net capital gain (less loss)
+  A01000
+Net capital gain (less loss) amount
+  N01400
+Number of returns with taxable individual retirement arrangements distributions
+  A01400
+Taxable individual retirement arrangements distributions amount
+  N01700
+Number of returns with taxable pensions and annuities
+  A01700
+Taxable pensions and annuities amount
+  SCHF
+Number of farm returns
+  N02300
+Number of returns with unemployment compensation
+  A02300
+Unemployment compensation amount [6]
+  N02500
+Number of returns with taxable Social Security benefits
+  A02500
+Taxable Social Security benefits amount
+  N26270
+Number of returns with partnership/S-corp net income (less loss)
+  A26270
+Partnership/S-corp net income (less loss) amount
+  N02900
+Number of returns with total statutory adjustments
+  A02900
+Total statutory adjustments amount
+  N03220
+Number of returns with educator expenses
+  A03220
+Educator expenses amount
+  N03300
+Number of returns with self-employment retirement plans
+  A03300
+Self-employment retirement plans amount
+  N03270
+Number of returns with self-employment health insurance deduction
+  A03270
+Self-employment health insurance deduction amount
+  N03150
+Number of returns with IRA payments
+  A03150
+IRA payments amount
+  N03210
+Number of returns with student loan interest deduction
+  A03210
+Student loan interest deduction amount
+  N03230
+Number of returns with tuition and fees deduction
+  A03230
+Tuition and fees deduction amount
+  N03240
+Returns with domestic production activities deduction
+  A03240
+Domestic production activities deduction amount
+  N04470
+Number of returns with itemized deductions
+  A04470
+Total itemized deductions amount
+  A00101
+Amount of AGI for itemized returns
+  N18425
+Number of returns with State and local income taxes
+  A18425
+State and local income taxes amount
+  N18450
+Number of returns with State and local general sales tax
+  A18450
+State and local general sales tax amount
+  N18500
+Number of returns with real estate taxes
+  A18500
+Real estate taxes amount
+  N18300
+Number of returns with taxes paid
+  A18300
+Taxes paid amount
+  N19300
+Number of returns with mortgage interest paid
+  A19300
+Mortgage interest paid amount
+  N19700
+Number of returns with contributions
+  A19700
+Contributions amount
+  N04800
+Number of returns with taxable income
+  A04800
+Taxable income amount
+  N05800
+Number of returns with income tax before credits
+  A05800
+Income tax before credits amount
+  N09600
+Number of returns with alternative minimum tax
+  A09600
+Alternative minimum tax amount
+  N05780
+Number of returns with excess advance premium tax credit repayment
+  A05780
+Excess advance premium tax credit repayment amount
+  N07100
+Number of returns with total tax credits
+  A07100
+Total tax credits amount
+  N07300
+Number of returns with foreign tax credit
+  A07300
+Foreign tax credit amount
+  N07180
+Number of returns with child and dependent care credit
+  A07180
+Child and dependent care credit amount
+  N07230
+Number of returns with nonrefundable education credit
+  A07230
+Nonrefundable education credit amount
+  N07240
+Number of returns with retirement savings contribution credit
+  A07240
+Retirement savings contribution credit amount
+  N07220
+Number of returns with child tax credit
+  A07220
+Child tax credit amount
+  N07260
+Number of returns with residential energy tax credit
+  A07260
+Residential energy tax credit amount
+  N09400
+Number of returns with self-employment tax
+  A09400
+Self-employment tax amount
+  N85770
+Number of returns with total premium tax credit
+  A85770
+Total premium tax credit amount
+  N85775
+Number of returns with advance premium tax credit
+  A85775
+Advance premium tax credit amount
+  N09750
+Number of returns with health care individual responsibility payment
+  A09750
+Health care individual responsibility payment amount
+  N10600
+Number of returns with total tax payments
+  A10600
+Total tax payments amount
+  N59660
+Number of returns with earned income credit
+  A59660
+Earned income credit amount [7]
+  N59720
+Number of returns with excess earned income credit
+  A59720
+Excess earned income credit (refundable) amount [8]
+  N11070
+Number of returns with additional child tax credit
+  A11070
+Additional child tax credit amount
+  N10960
+Number of returns with refundable education credit
+  A10960
+Refundable education credit amount
+  N11560
+Number of returns with net premium tax credit
+  A11560
+Net premium tax credit amount
+  N06500
+Number of returns with income tax
+  A06500
+Income tax amount [9]
+  N10300
+Number of returns with tax liability
+  A10300
+Total tax liability amount [10]
+  N85530
+Number of returns with additional Medicare tax
+  A85530
+Additional Medicare tax amount
+  N85300
+Number of returns with net investment income tax
+  A85300
+Net investment income tax amount
+  N11901
+Number of returns with tax due at time of filing
+  A11901
+Tax due at time of filing amount [11]
+  N11902
+Number of returns with overpayments refunded
+  A11902
+Overpayments refunded amount [12]
