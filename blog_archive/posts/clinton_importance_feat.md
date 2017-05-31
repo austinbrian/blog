@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The most important factor in the 2016 election? Student loans."
 author: "Brian Austin"
 meta: "politics, presidential election, 2016, taxes"

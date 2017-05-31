@@ -17,7 +17,7 @@
 * Equity dataset from Ben
 * Simone Biles is impossible
 
-# Capstone ideas
+
 ### Chatbot AI
 Predict order of questions that maximizes length of interview for a given consumers
 
