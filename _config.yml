@@ -17,7 +17,7 @@ title: Data futures
 author: Brian Austin
 description: Long on data.
 baseurl: /blog # the subpath of your site, e.g. /blog
-url: "https://austinbrian.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://austinbrian.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: EST
 exclude:
@@ -30,6 +30,7 @@ exclude:
   - jekyll-whiteglass.gemspec
   - screenshot.png
   - vendor
+
 
 # Social media
 twitter_username: bda
