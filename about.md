@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 <p align="center">
-  <img src="images/bda_headshot_smaller.png"/>
+  <img src="https://austinbrian.github.io/blog/images/bda_headshot_smaller.png"/>
 </p>
 
 Brian is a data scientist originally from North Carolina. He likes politics, startups, and advanced baseball statistics.
@@ -22,7 +22,7 @@ Brian is a data scientist originally from North Carolina. He likes politics, sta
 ----
 ## Experience
 ### General Assembly
-**Washington, DC**
+**Washington, DC**   
 *General Assembly immersive program is a full-time 12-week course that develops statistical, programming, and data communication skills.*   
 **Data Science Immersive** *March - May 2017*
 * Capstone project culminated in unsupervised natural language processing analysis of 750,000 complaints to the Consumer Financial Protection Bureau. A classification algorithm correctly identified which of 17 products a consumer's unstructured text referred to 77% of the time.
@@ -58,7 +58,7 @@ Brian is a data scientist originally from North Carolina. He likes politics, sta
 ---
 ## Education
 ### General Assembly
-**Data Science Immersive** *March – May 2017*
+**Data Science Immersive** *March – May 2017*   
 * Full-time 12-week immersive course in the full life cycle of being a data scientist: from data ingestion, scraping, cleaning, mining to modeling (KNN, decision trees, ensembling, regression, forecasting, neural networks, clustering, Bayesian inference, etc) to deployment (AWS).
 * Programming taught in Python, including: Pandas, NumPy, PostgreSQL, SciKit-Learn, Gensim
 
