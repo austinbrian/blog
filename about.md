@@ -11,11 +11,11 @@ Brian is a data scientist originally from North Carolina. He likes politics, sta
 
 ## Contact
 
- <a href="mailto:austin.brian+from_website@gmail.com">Email</a>     |    [LinkedIn](https://www.linkedin.com/in/briandaustin/)    |    [Github](https://github.com/austinbrian)    |
+ <a href="mailto:austin.brian+from_website@gmail.com">Email</a> -------|------- [LinkedIn](https://www.linkedin.com/in/briandaustin/)-------|-------    [Github](https://github.com/austinbrian)    |
 
 ---
 ## Toolkit
-* Python, SQL, UNIX command line tools, AWS, Google Cloud
+* Python, STATA, SQL, UNIX command line tools, AWS, Google Cloud
 * Natural language processing, machine learning,  classification, regression, webscraping
 * Presentation and data visualization tools including Tableau, Matplotlib, Seaborn, Powerpoint
 
@@ -60,7 +60,8 @@ Brian is a data scientist originally from North Carolina. He likes politics, sta
 ### General Assembly
 **Data Science Immersive** *March – May 2017*   
 * Full-time 12-week immersive course in the full life cycle of being a data scientist: from data ingestion, scraping, cleaning, mining to modeling (KNN, decision trees, ensembling, regression, forecasting, neural networks, clustering, Bayesian inference, etc) to deployment (AWS).
-* Programming taught in Python, including: Pandas, NumPy, PostgreSQL, SciKit-Learn, Gensim
+* Statistical programming taught in Python; libraries included: Pandas, NumPy, Statsmodels, SciKit-Learn, BeautifulSoup, NLTK, Gensim, PyMC
+* Other programming tools included: PostgreSQL, mySQL
 
 ### University of North Carolina at Chapel Hill
 **B.A. Economics, Political Science, Minor in Creative Writing** *May 2010*   
