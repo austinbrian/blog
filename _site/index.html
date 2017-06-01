@@ -77,6 +77,9 @@
         <a class="page-link" href="/blog/about/">About</a>
       
         
+        <a class="page-link" href="/blog/portfolio/">Portfolio</a>
+      
+        
         <a class="page-link" href="/blog/archives/">Archives</a>
       
         
@@ -116,7 +119,7 @@
 
 <p>And for Donald Trump’s Inauguration Day, there were more complaints to the CFPB than there have been on any other day.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/Total_cfpb_complaints_5_24.png" alt="" title="That orange spike there is You-Know-Who" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/Total_cfpb_complaints_5_24.png" alt="" title="That orange spike there is You-Know-Who" /></p>
 
 <p>While complaints have increased steadily over the CFPB’s existence, the 24 hours before Trump’s inauguration saw more than twice as many reports to the CFPB as any preceding day. There were more than 1,500 individual complaints on both Inauguration Day and the day before it.</p>
 
@@ -124,7 +127,7 @@
 
 <p>But on Inauguration Day, more than 60% of complaints were about student loans.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/obama_trump_prod_complaints.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/obama_trump_prod_complaints.png" alt="" /></p>
 
 <p>I’m especially interested in how these complaints demonstrate the ways people talk about their mistreatments, and the way those translate to actions. I’ll be pursuing those questions in the following days as part of a larger project.</p>
 
@@ -260,11 +263,11 @@
 
 <p>I wanted to look beyond these total figures and see how unsupervised machine learning would classify these schools compared to one another. I started by examining total research dollars for various sets of fields against one another. Scatter plots are a useful way to see that information. Here, darker points indicate greater total research dollars.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_engineering_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/es_engineering_rd.png" alt="" /></p>
 
 <p>Most plots that are highly clustered around 0, with bands of institutions fanning out. In some cases, such as engineering, institutions with a greater concentration of students are outliers, but don’t necessarily show a high degree of difference between them.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifesci_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifesci_rd.png" alt="" /></p>
 
 <p>Psychology and Life Sciences, however, have a data distribution that allow us to see some of the spread of data, which makes them a decent place to start visualizing the way some of these schools might cluster together.
 <br /></p>
@@ -275,7 +278,7 @@
 
 <p>I’ll use the same plot of Psychology vs Life Sciences that looked promising before, but colorized by the clusters that DBSCAN assigns.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_dbscan.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_dbscan.png" alt="" /></p>
 
 <p>Yikes. This only shows 2-3 clusters, and they don’t seem to be particularly useful in describing the data. It doesn’t look particularly good, but eyeballing it isn’t always a great way to determine the usefulness of unsupervised learning algorithms, so I’ll check the numbers.</p>
 
@@ -311,7 +314,7 @@
 
 <p>This results in a tree-type diagram that shows the “distance” (here measured in research dollars) between two data points.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/dendrogram_he_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/dendrogram_he_rd.png" alt="" /></p>
 
 <p>On first inspection, there look to be a couple of good places to break up our clusters.</p>
 <ul>
@@ -324,17 +327,17 @@
 
 <p>And here is what the Psychology vs Life Sciences plot looks like, with different colors indicating cluster groupings.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_clustered.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_clustered.png" alt="" /></p>
 
 <p>Hey! It looks like there are distinct bands of colors in there! This looks like something we can use to better understand how universities are different. Let’s look at one more.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_life_sci_clustered.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/es_life_sci_clustered.png" alt="" /></p>
 
 <p>Again, a useful banding, and one that is more prominent for the Life Sciences dimension than for the Environmental Sciences one.</p>
 
 <p>Not all the comparisons will look as robust, but that’s part of why the clustering itself is good - this can be difficult to eyeball.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/math_cs_clustered.png" alt="" />
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/math_cs_clustered.png" alt="" />
 <br /></p>
 
 <h3>Final cluster insights</h3>
@@ -401,22 +404,15 @@
         </header>
 
         <div class="post-content">
-          <p>In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those wepages present a useful window into the way people interact with their government, and into the rhythms of American life.</p>
+          <p>In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those webpages present a useful window into the way people interact with their government, and into the rhythms of American life.</p>
 
 <p>To understand how traffic preferences have changed during the first 100 days of Donald Trump’s presidency, I pulled data on a month’s worth of traffic among all US government websites from <a href="https://analytics.usa.gov/">analytics.usa.gov</a>. The website compiles statistics for the prior 30 days (or 5 minutes, if you’re interested in that). To compare the way activities have changed, I compared data of the prior 30 days that included Trump’s inauguration (the most readily-available data was for Jan. 29th, nine days after his inauguration) and from his 100th day in office, April 29th.</p>
 
 <p>This chart demonstrates the way views of government domains were different in April from the way they were in January. It uses a “ranking” of the number of visits a domain received.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/pagerank.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/pagerank.png" alt="" /></p>
 
 <p>Beyond the number of visits (which determines ranking), I considered the number of pageviews a domain received over that time, as well as the number of unique users. For some pages, such as <a href="https://www.usajobs.gov/">USAjobs.gov</a>, the number of pageviews relatively high, so there is some difference in that analysis. I’ve summarized some of the bigger differences in this analysis.</p>
-
-<p><strong>Top Government Websites</strong></p>
-<ul>
-  <li>People always want their packages and they want to know the weather, so the domains for the <a href="https://tools.usps.com">post office</a> and the <a href="https://forecast.weather.gov">weather forecast</a> are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery.</li>
-  <li><a href="https://usajobs.gov">USAjobs.gov</a> is the main federal government portal for job applicants, and is one of the top ten websites in both months.</li>
-  <li>The Centers for Disease Control was popular in both January and April, as was the Social Security Administration.</li>
-</ul>
 
 <p><strong>Big Gainers</strong></p>
 <ul>
@@ -429,13 +425,22 @@
 
 <p><strong>Big Losah’s</strong></p>
 <ul>
-  <li>The White House’s main website, <a href="https://www.whitehouse.gov/">whitehouse.gov</a> plummeted in popularity between January and April. It fell from being the 9th most popular federal web domain to the 22nd.</li>
+  <li>The White House’s main website, <a href="https://www.whitehouse.gov/">whitehouse.gov</a> plummeted in popularity between January and April. It tumbled from being the 9th most popular federal web domain to the 22nd, with 13 million fewer visitors over the 30-day period. Corresponding visits to <a href="https://search.whitehouse.gov">search.whitehouse.gov</a> fell similarly.</li>
   <li>Similarly, <a href="https://petitions.whitehouse.gov/">petitions to</a> the White House fell precipitously, losing 13 rank positions and 3 million fewer visits in April than they did in January.</li>
   <li>The state department’s <a href="https://ceac.state.gov">web domain</a> that details a foreign traveler’s passport status saw a drop of more than 2 million visitors between the two months.</li>
   <li>The <a href="https://opm.gov">Office of Personnel Management</a> - which DC-based folks know as the people who tell you whether the government is shut down due to snow - became much less popular in April than it was in January.</li>
 </ul>
 
+<p><strong>Top Government Websites</strong></p>
+<ul>
+  <li>People always want their packages and they want to know the weather, so the domains for the <a href="https://tools.usps.com">post office</a> and the <a href="https://forecast.weather.gov">weather forecast</a> are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery.</li>
+  <li><a href="https://usajobs.gov">USAjobs.gov</a> is the main federal government portal for job applicants, and is one of the top ten websites in both months.</li>
+  <li>The Centers for Disease Control was popular in both January and April, as was the Social Security Administration.</li>
+</ul>
+
 <p>To summarize, Americans are busy living their lives, but they are quantifiably are less interested in interacting with the public-facing part of the executive than they were at the beginning of the Trump Era.</p>
+
+<p><em>See the full analysis of this question <a href="https://github.com/austinbrian/austinbrian.github.io/blob/master/analyses/Gov%20website%20analytics.ipynb">on Github</a>.</em></p>
 
         </div>
         
@@ -469,7 +474,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
 <p>Perhaps more interesting are the distinctions that weren’t found in the dataset. Most importantly, total taxable income did not emerge as an especially valuable predictor.
 <br /></p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/agi_pp_vs_clinton.png" alt="" />
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/agi_pp_vs_clinton.png" alt="" />
 <br /></p>
 
 <p>The figure above demonstrates the distribution of income, as separated by Clinton’s margin over Trump (or vice versa). Each blue dot represents a county in which more people voted for Clinton than Trump, and each red dot shows a county with more Trump votes.</p>

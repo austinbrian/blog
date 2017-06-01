@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/blog/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2017-05-31T14:33:04-05:00</updated>
+  <updated>2017-06-01T11:36:23-05:00</updated>
   <id>http://localhost:4000/blog//</id>
 
   
@@ -38,7 +38,7 @@
 
 &lt;p&gt;And for Donald Trump’s Inauguration Day, there were more complaints to the CFPB than there have been on any other day.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/Total_cfpb_complaints_5_24.png&quot; alt=&quot;&quot; title=&quot;That orange spike there is You-Know-Who&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/Total_cfpb_complaints_5_24.png&quot; alt=&quot;&quot; title=&quot;That orange spike there is You-Know-Who&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While complaints have increased steadily over the CFPB’s existence, the 24 hours before Trump’s inauguration saw more than twice as many reports to the CFPB as any preceding day. There were more than 1,500 individual complaints on both Inauguration Day and the day before it.&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 
 &lt;p&gt;But on Inauguration Day, more than 60% of complaints were about student loans.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/obama_trump_prod_complaints.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/obama_trump_prod_complaints.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m especially interested in how these complaints demonstrate the ways people talk about their mistreatments, and the way those translate to actions. I’ll be pursuing those questions in the following days as part of a larger project.&lt;/p&gt;</content>
 
@@ -201,11 +201,11 @@
 
 &lt;p&gt;I wanted to look beyond these total figures and see how unsupervised machine learning would classify these schools compared to one another. I started by examining total research dollars for various sets of fields against one another. Scatter plots are a useful way to see that information. Here, darker points indicate greater total research dollars.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_engineering_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/es_engineering_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Most plots that are highly clustered around 0, with bands of institutions fanning out. In some cases, such as engineering, institutions with a greater concentration of students are outliers, but don’t necessarily show a high degree of difference between them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifesci_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifesci_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Psychology and Life Sciences, however, have a data distribution that allow us to see some of the spread of data, which makes them a decent place to start visualizing the way some of these schools might cluster together.
 &lt;br /&gt;&lt;/p&gt;
@@ -216,7 +216,7 @@
 
 &lt;p&gt;I’ll use the same plot of Psychology vs Life Sciences that looked promising before, but colorized by the clusters that DBSCAN assigns.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_dbscan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_dbscan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yikes. This only shows 2-3 clusters, and they don’t seem to be particularly useful in describing the data. It doesn’t look particularly good, but eyeballing it isn’t always a great way to determine the usefulness of unsupervised learning algorithms, so I’ll check the numbers.&lt;/p&gt;
 
@@ -252,7 +252,7 @@
 
 &lt;p&gt;This results in a tree-type diagram that shows the “distance” (here measured in research dollars) between two data points.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/dendrogram_he_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/dendrogram_he_rd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On first inspection, there look to be a couple of good places to break up our clusters.&lt;/p&gt;
 &lt;ul&gt;
@@ -265,17 +265,17 @@
 
 &lt;p&gt;And here is what the Psychology vs Life Sciences plot looks like, with different colors indicating cluster groupings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_clustered.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_clustered.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hey! It looks like there are distinct bands of colors in there! This looks like something we can use to better understand how universities are different. Let’s look at one more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_life_sci_clustered.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/es_life_sci_clustered.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Again, a useful banding, and one that is more prominent for the Life Sciences dimension than for the Environmental Sciences one.&lt;/p&gt;
 
 &lt;p&gt;Not all the comparisons will look as robust, but that’s part of why the clustering itself is good - this can be difficult to eyeball.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/math_cs_clustered.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/math_cs_clustered.png&quot; alt=&quot;&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Final cluster insights&lt;/h3&gt;
@@ -361,22 +361,15 @@
       <published>2017-05-12T00:00:00-05:00</published>
       <updated>2017-05-12T00:00:00-05:00</updated>
       <id>http://localhost:4000/blog/2017/05/12/trump-100-days</id>
-      <content type="html" xml:base="http://localhost:4000/blog/2017/05/12/trump-100-days/">&lt;p&gt;In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those wepages present a useful window into the way people interact with their government, and into the rhythms of American life.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/blog/2017/05/12/trump-100-days/">&lt;p&gt;In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those webpages present a useful window into the way people interact with their government, and into the rhythms of American life.&lt;/p&gt;
 
 &lt;p&gt;To understand how traffic preferences have changed during the first 100 days of Donald Trump’s presidency, I pulled data on a month’s worth of traffic among all US government websites from &lt;a href=&quot;https://analytics.usa.gov/&quot;&gt;analytics.usa.gov&lt;/a&gt;. The website compiles statistics for the prior 30 days (or 5 minutes, if you’re interested in that). To compare the way activities have changed, I compared data of the prior 30 days that included Trump’s inauguration (the most readily-available data was for Jan. 29th, nine days after his inauguration) and from his 100th day in office, April 29th.&lt;/p&gt;
 
 &lt;p&gt;This chart demonstrates the way views of government domains were different in April from the way they were in January. It uses a “ranking” of the number of visits a domain received.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/pagerank.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/pagerank.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Beyond the number of visits (which determines ranking), I considered the number of pageviews a domain received over that time, as well as the number of unique users. For some pages, such as &lt;a href=&quot;https://www.usajobs.gov/&quot;&gt;USAjobs.gov&lt;/a&gt;, the number of pageviews relatively high, so there is some difference in that analysis. I’ve summarized some of the bigger differences in this analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Top Government Websites&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;People always want their packages and they want to know the weather, so the domains for the &lt;a href=&quot;https://tools.usps.com&quot;&gt;post office&lt;/a&gt; and the &lt;a href=&quot;https://forecast.weather.gov&quot;&gt;weather forecast&lt;/a&gt; are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usajobs.gov&quot;&gt;USAjobs.gov&lt;/a&gt; is the main federal government portal for job applicants, and is one of the top ten websites in both months.&lt;/li&gt;
-  &lt;li&gt;The Centers for Disease Control was popular in both January and April, as was the Social Security Administration.&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Big Gainers&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -389,13 +382,22 @@
 
 &lt;p&gt;&lt;strong&gt;Big Losah’s&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The White House’s main website, &lt;a href=&quot;https://www.whitehouse.gov/&quot;&gt;whitehouse.gov&lt;/a&gt; plummeted in popularity between January and April. It fell from being the 9th most popular federal web domain to the 22nd.&lt;/li&gt;
+  &lt;li&gt;The White House’s main website, &lt;a href=&quot;https://www.whitehouse.gov/&quot;&gt;whitehouse.gov&lt;/a&gt; plummeted in popularity between January and April. It tumbled from being the 9th most popular federal web domain to the 22nd, with 13 million fewer visitors over the 30-day period. Corresponding visits to &lt;a href=&quot;https://search.whitehouse.gov&quot;&gt;search.whitehouse.gov&lt;/a&gt; fell similarly.&lt;/li&gt;
   &lt;li&gt;Similarly, &lt;a href=&quot;https://petitions.whitehouse.gov/&quot;&gt;petitions to&lt;/a&gt; the White House fell precipitously, losing 13 rank positions and 3 million fewer visits in April than they did in January.&lt;/li&gt;
   &lt;li&gt;The state department’s &lt;a href=&quot;https://ceac.state.gov&quot;&gt;web domain&lt;/a&gt; that details a foreign traveler’s passport status saw a drop of more than 2 million visitors between the two months.&lt;/li&gt;
   &lt;li&gt;The &lt;a href=&quot;https://opm.gov&quot;&gt;Office of Personnel Management&lt;/a&gt; - which DC-based folks know as the people who tell you whether the government is shut down due to snow - became much less popular in April than it was in January.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To summarize, Americans are busy living their lives, but they are quantifiably are less interested in interacting with the public-facing part of the executive than they were at the beginning of the Trump Era.&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Top Government Websites&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;People always want their packages and they want to know the weather, so the domains for the &lt;a href=&quot;https://tools.usps.com&quot;&gt;post office&lt;/a&gt; and the &lt;a href=&quot;https://forecast.weather.gov&quot;&gt;weather forecast&lt;/a&gt; are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usajobs.gov&quot;&gt;USAjobs.gov&lt;/a&gt; is the main federal government portal for job applicants, and is one of the top ten websites in both months.&lt;/li&gt;
+  &lt;li&gt;The Centers for Disease Control was popular in both January and April, as was the Social Security Administration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To summarize, Americans are busy living their lives, but they are quantifiably are less interested in interacting with the public-facing part of the executive than they were at the beginning of the Trump Era.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;See the full analysis of this question &lt;a href=&quot;https://github.com/austinbrian/austinbrian.github.io/blob/master/analyses/Gov%20website%20analytics.ipynb&quot;&gt;on Github&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
 
       
       
@@ -416,7 +418,7 @@
       
 
       
-        <summary type="html">In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those wepages present a useful window into the way people interact with their government, and into the rhythms of American life. To understand how traffic preferences have changed during the first 100 days of Donald Trump’s presidency, I pulled data on a month’s worth of traffic among all US government websites from analytics.usa.gov. The website compiles statistics for the prior 30 days (or 5 minutes, if you’re interested in that). To compare the way activities have changed, I compared data of the prior 30 days that included Trump’s inauguration (the most readily-available data was for Jan. 29th, nine days after his inauguration) and from his 100th day in office, April 29th. This chart demonstrates the way views of government domains were different in April from the way they were in January. It uses a “ranking” of the number of visits a domain received. Beyond the number of visits (which determines ranking), I considered the number of pageviews a domain received over that time, as well as the number of unique users. For some pages, such as USAjobs.gov, the number of pageviews relatively high, so there is some difference in that analysis. I’ve summarized some of the bigger differences in this analysis. Top Government Websites People always want their packages and they want to know the weather, so the domains for the post office and the weather forecast are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery. USAjobs.gov is the main federal government portal for job applicants, and is one of the top ten websites in both months. The Centers for Disease Control was popular in both January and April, as was the Social Security Administration. Big Gainers IRS websites are big gainers, since the first 100 days always* coincides with Tax Day in America. The main IRS web domain saw the greatest increase in total visits among all executive branch domains NASA’s images domain saw the biggest growth in visitors over January, with more than 100x the visitors in the month of April as they had in January. During that time the probe Cassini crossed through the rings of Saturn and sent back stunning photos. The Securities and Exchange Commission includes databases that house information on publicly-traded company quarterly filings. Since the period included the end of the first fiscal quarter for many companies, it may be unsurprising that visits to the website increased 83% between the two periods. Visits to the White House’s anti-cyberbullying initiative jumped by 184% between January and April. The 100-day marker is right before many deadlines for students applying to college to receive student aid packages, which may be why pageviews of the National Postsecondary Student Aid Survey domain increased by a greater percentage than any other government domain over the period. Big Losah’s The White House’s main website, whitehouse.gov plummeted in popularity between January and April. It fell from being the 9th most popular federal web domain to the 22nd. Similarly, petitions to the White House fell precipitously, losing 13 rank positions and 3 million fewer visits in April than they did in January. The state department’s web domain that details a foreign traveler’s passport status saw a drop of more than 2 million visitors between the two months. The Office of Personnel Management - which DC-based folks know as the people who tell you whether the government is shut down due to snow - became much less popular in April than it was in January. To summarize, Americans are busy living their lives, but they are quantifiably are less interested in interacting with the public-facing part of the executive than they were at the beginning of the Trump Era.</summary>
+        <summary type="html">In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those webpages present a useful window into the way people interact with their government, and into the rhythms of American life. To understand how traffic preferences have changed during the first 100 days of Donald Trump’s presidency, I pulled data on a month’s worth of traffic among all US government websites from analytics.usa.gov. The website compiles statistics for the prior 30 days (or 5 minutes, if you’re interested in that). To compare the way activities have changed, I compared data of the prior 30 days that included Trump’s inauguration (the most readily-available data was for Jan. 29th, nine days after his inauguration) and from his 100th day in office, April 29th. This chart demonstrates the way views of government domains were different in April from the way they were in January. It uses a “ranking” of the number of visits a domain received. Beyond the number of visits (which determines ranking), I considered the number of pageviews a domain received over that time, as well as the number of unique users. For some pages, such as USAjobs.gov, the number of pageviews relatively high, so there is some difference in that analysis. I’ve summarized some of the bigger differences in this analysis. Big Gainers IRS websites are big gainers, since the first 100 days always* coincides with Tax Day in America. The main IRS web domain saw the greatest increase in total visits among all executive branch domains NASA’s images domain saw the biggest growth in visitors over January, with more than 100x the visitors in the month of April as they had in January. During that time the probe Cassini crossed through the rings of Saturn and sent back stunning photos. The Securities and Exchange Commission includes databases that house information on publicly-traded company quarterly filings. Since the period included the end of the first fiscal quarter for many companies, it may be unsurprising that visits to the website increased 83% between the two periods. Visits to the White House’s anti-cyberbullying initiative jumped by 184% between January and April. The 100-day marker is right before many deadlines for students applying to college to receive student aid packages, which may be why pageviews of the National Postsecondary Student Aid Survey domain increased by a greater percentage than any other government domain over the period. Big Losah’s The White House’s main website, whitehouse.gov plummeted in popularity between January and April. It tumbled from being the 9th most popular federal web domain to the 22nd, with 13 million fewer visitors over the 30-day period. Corresponding visits to search.whitehouse.gov fell similarly. Similarly, petitions to the White House fell precipitously, losing 13 rank positions and 3 million fewer visits in April than they did in January. The state department’s web domain that details a foreign traveler’s passport status saw a drop of more than 2 million visitors between the two months. The Office of Personnel Management - which DC-based folks know as the people who tell you whether the government is shut down due to snow - became much less popular in April than it was in January. Top Government Websites People always want their packages and they want to know the weather, so the domains for the post office and the weather forecast are consistently some of the top website. These domains are also common API targets for mobile apps that involve weather and delivery. USAjobs.gov is the main federal government portal for job applicants, and is one of the top ten websites in both months. The Centers for Disease Control was popular in both January and April, as was the Social Security Administration. To summarize, Americans are busy living their lives, but they are quantifiably are less interested in interacting with the public-facing part of the executive than they were at the beginning of the Trump Era. See the full analysis of this question on Github.</summary>
       
 
       
@@ -448,7 +450,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
 &lt;p&gt;Perhaps more interesting are the distinctions that weren’t found in the dataset. Most importantly, total taxable income did not emerge as an especially valuable predictor.
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/agi_pp_vs_clinton.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/agi_pp_vs_clinton.png&quot; alt=&quot;&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;The figure above demonstrates the distribution of income, as separated by Clinton’s margin over Trump (or vice versa). Each blue dot represents a county in which more people voted for Clinton than Trump, and each red dot shows a county with more Trump votes.&lt;/p&gt;
@@ -548,7 +550,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
       <published>2017-04-04T00:00:00-05:00</published>
       <updated>2017-04-04T00:00:00-05:00</updated>
       <id>http://localhost:4000/blog/2017/04/04/mood</id>
-      <content type="html" xml:base="http://localhost:4000/blog/2017/04/04/mood/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/theo_confetti_angel.jpg&quot; alt=&quot;Theo&quot; /&gt;&lt;/p&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/blog/2017/04/04/mood/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/theo_confetti_angel.jpg&quot; alt=&quot;Theo&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -596,7 +598,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
 
 &lt;p&gt;Here is the bracket of the Sweet 16 games:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/ncaa_ss_bracket_8blank.png&quot; alt=&quot;where's Dook?&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/ncaa_ss_bracket_8blank.png&quot; alt=&quot;where's Dook?&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since we currently live in a world where we know who won the Sweet 16 games, we can make a &lt;em&gt;super&lt;/em&gt; accurate model to “predict” the winners of those games. It might look like this:&lt;/p&gt;
 &lt;ol&gt;
@@ -656,7 +658,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
 
 &lt;p&gt;How’d we do?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/NCAA_ss_circles.png&quot; alt=&quot;wow such prediction&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/NCAA_ss_circles.png&quot; alt=&quot;wow such prediction&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Crushed it.&lt;/p&gt;
 
@@ -706,7 +708,7 @@ To be sure, these groups of voters are qualitatively different in other measurab
 
 &lt;p&gt;And just as we suspected…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/NCAA_ss_xxxs.png&quot; alt=&quot;not as good&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/NCAA_ss_xxxs.png&quot; alt=&quot;not as good&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Wait what?&lt;/p&gt;
 
@@ -835,13 +837,13 @@ To be sure, these groups of voters are qualitatively different in other measurab
 
 &lt;p&gt;For starters, they are slightly more likely to be male, and both males and females (that are registered with DC) are very likely to be fixed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/dogs_registered_mf.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/dogs_registered_mf.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;They also have a great chance of being some breed of terrier. More than a third of registered dogs is some kind of terrier or mix. The most common breed variety in DC is the Terrier / Pit Bull mix, with 233 registrants.&lt;/p&gt;
 
 &lt;p&gt;Dogs in DC are also on the younger side, as on this chart (measured in people years).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/images/dog_years_dc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/dog_years_dc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The data on who the dogs are in DC comes from a &lt;a href=&quot;https://github.com/katerabinowitz/FOIA-Requests/tree/master/Registered%20Dogs&quot;&gt;dataset&lt;/a&gt; FOIA’d and compiled by the great &lt;a href=&quot;http://www.datalensdc.com/&quot;&gt;Kate Rabinowitz&lt;/a&gt;.&lt;/p&gt;
 
@@ -906,7 +908,7 @@ Since the first round of the tournament is 64 hours of basketball shoved into a 
   &lt;li&gt;&lt;strong&gt;Made-the-Dancers&lt;/strong&gt;: where it was an honor just to be nominated, but nobody expected them to win, and they didn’t.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://austinbrian.github.io/assets/NCAA_rd1_labeled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/NCAA_rd1_labeled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As we move into the second weekend of the tournament, I’ll keep taking a look at how these predictions held up. There are some early upsets. Last year’s champ Villanova have already lost this year. I felt bad for them for exactly &lt;a href=&quot;https://www.youtube.com/watch?v=EMHoGRp1QrE&quot;&gt;4.7 seconds&lt;/a&gt;.&lt;/p&gt;</content>
 

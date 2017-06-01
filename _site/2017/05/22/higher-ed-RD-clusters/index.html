@@ -77,6 +77,9 @@
         <a class="page-link" href="/blog/about/">About</a>
       
         
+        <a class="page-link" href="/blog/portfolio/">Portfolio</a>
+      
+        
         <a class="page-link" href="/blog/archives/">Archives</a>
       
         
@@ -216,11 +219,11 @@
 
 <p>I wanted to look beyond these total figures and see how unsupervised machine learning would classify these schools compared to one another. I started by examining total research dollars for various sets of fields against one another. Scatter plots are a useful way to see that information. Here, darker points indicate greater total research dollars.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_engineering_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/es_engineering_rd.png" alt="" /></p>
 
 <p>Most plots that are highly clustered around 0, with bands of institutions fanning out. In some cases, such as engineering, institutions with a greater concentration of students are outliers, but don’t necessarily show a high degree of difference between them.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifesci_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifesci_rd.png" alt="" /></p>
 
 <p>Psychology and Life Sciences, however, have a data distribution that allow us to see some of the spread of data, which makes them a decent place to start visualizing the way some of these schools might cluster together.
 <br /></p>
@@ -231,7 +234,7 @@
 
 <p>I’ll use the same plot of Psychology vs Life Sciences that looked promising before, but colorized by the clusters that DBSCAN assigns.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_dbscan.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_dbscan.png" alt="" /></p>
 
 <p>Yikes. This only shows 2-3 clusters, and they don’t seem to be particularly useful in describing the data. It doesn’t look particularly good, but eyeballing it isn’t always a great way to determine the usefulness of unsupervised learning algorithms, so I’ll check the numbers.</p>
 
@@ -267,7 +270,7 @@
 
 <p>This results in a tree-type diagram that shows the “distance” (here measured in research dollars) between two data points.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/dendrogram_he_rd.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/dendrogram_he_rd.png" alt="" /></p>
 
 <p>On first inspection, there look to be a couple of good places to break up our clusters.</p>
 <ul>
@@ -280,17 +283,17 @@
 
 <p>And here is what the Psychology vs Life Sciences plot looks like, with different colors indicating cluster groupings.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/psy_lifsci_clustered.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/psy_lifsci_clustered.png" alt="" /></p>
 
 <p>Hey! It looks like there are distinct bands of colors in there! This looks like something we can use to better understand how universities are different. Let’s look at one more.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/es_life_sci_clustered.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/es_life_sci_clustered.png" alt="" /></p>
 
 <p>Again, a useful banding, and one that is more prominent for the Life Sciences dimension than for the Environmental Sciences one.</p>
 
 <p>Not all the comparisons will look as robust, but that’s part of why the clustering itself is good - this can be difficult to eyeball.</p>
 
-<p><img src="https://raw.githubusercontent.com/austinbrian/austinbrian.github.io/master/assets/math_cs_clustered.png" alt="" />
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/math_cs_clustered.png" alt="" />
 <br /></p>
 
 <h3>Final cluster insights</h3>
