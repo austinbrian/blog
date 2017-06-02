@@ -67,7 +67,7 @@ N10960| 0.053645| Number of returns with refundable education credits
 N07230 | 0.031493| Number of returns with nonrefundable education expenses
 N02300 | 0.026453|Number of returns with unemployment compensation
 A03230 | 0.026133|Tuition and fees deduction amount
-A09400 | 0.025870|Self-employment tax amount 
+A09400 | 0.025870|Self-employment tax amount
 
 <br>
 But these findings largely conform to the behaviors we might expect of the electorate. Those with higher levels of education (especially those at high-cost liberal arts colleges) are most likely to inhabit counties that vote for Clinton. Farmers were more likely to vote Trump.
