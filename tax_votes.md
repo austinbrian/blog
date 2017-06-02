@@ -59,16 +59,17 @@ To be sure, these groups of voters are qualitatively different in other measurab
 
 The feature ids here don't mean much, but four in the top six in terms of importance are related to paying for education.
 
-Description | Feature ID | Importance|
-----|----|----|
-Number of returns with tuition and fees deduction| N03230 | 0.054240
-Number of returns with refundable education credits | N10960| 0.053645
-Number of farm returns | SCHF| 0.038331
-Number of returns with nonrefundable education expenses | N07230 | 0.031493
-Number of returns with unemployment compensation | N02300 | 0.026453
-Tuition and fees deduction amount | A03230 | 0.026133
-Self-employment tax amount | A09400 | 0.025870
+Feature ID | Importance| Description
+----|----|:----|
+N03230 | 0.054240| Number of returns with tuition and fees deduction
+N10960| 0.053645| Number of returns with refundable education credits
+ SCHF| 0.038331|Number of farm returns
+N07230 | 0.031493| Number of returns with nonrefundable education expenses
+N02300 | 0.026453|Number of returns with unemployment compensation
+A03230 | 0.026133|Tuition and fees deduction amount
+A09400 | 0.025870|Self-employment tax amount 
 
+<br>
 But these findings largely conform to the behaviors we might expect of the electorate. Those with higher levels of education (especially those at high-cost liberal arts colleges) are most likely to inhabit counties that vote for Clinton. Farmers were more likely to vote Trump.
 
 Perhaps more interesting are the distinctions that weren't found in the dataset. Most importantly, total taxable income did not emerge as an especially valuable predictor.   
