@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Voting with their Tax Returns"
+permalink: /tax_votes/
 ---
 *Find the full code and data for this project at [GitHub here]().*
 
