@@ -3,7 +3,7 @@ layout: page
 title: "Portfolio"
 permalink: /portfolio/
 ---
-## [Voting with their Tax Returns](../tax_votes)   
+## [Voting with their Tax Returns](/tax_votes)   
 *An analysis of the relationship between deductions taken on income tax returns and county-level voting patterns in the 2016 election.*    
 
 <p align="center">

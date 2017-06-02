@@ -3,7 +3,7 @@ layout: page
 title: "Voting with their Tax Returns"
 permalink: /tax_votes/
 ---
-*Find the full code and data for this project at [GitHub here]().*
+*Find the full code and data for this project at [GitHub here](https://github.com/austinbrian/portfolio/tree/master/tax_votes).*
 
 
 In thinking about the 2016 election, I had a relatively simple question: did Hillary Clinton win among taxpayers? I started with the logic that Clinton won about 3 million more popular votes in the general election than Donald Trump, and used tax returns as a window into the ways that the areas Trump won are different from the areas Clinton won.
