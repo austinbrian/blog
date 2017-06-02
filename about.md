@@ -3,15 +3,24 @@ layout: page
 title: "About"
 permalink: /about/
 ---
+Brian is a Washington, DC-based data scientist originally from North Carolina. He likes politics, startups, and advanced baseball statistics.
+
 <p align="center">
   <img src="https://austinbrian.github.io/blog/images/bda_headshot_smaller.png"/>
 </p>
 
-Brian is a data scientist originally from North Carolina. He likes politics, startups, and advanced baseball statistics.
 
-## Contact
+<h2 align="center">
 
- <a href="mailto:austin.brian+from_website@gmail.com">Email</a> -------|------- [LinkedIn](https://www.linkedin.com/in/briandaustin/)-------|-------    [Github](https://github.com/austinbrian)    |
+  <a href="mailto:austin.brian+from_website@gmail.com"><i class="fa fa-envelope icon-large"></i></a> &nbsp;
+
+  <a href="https://github.com/austinbrian">
+            <i class="fa fa-github icon-large"></i></a> &nbsp;
+  <a href="https://www.linkedin.com/in/briandaustin/">
+      <i class="fa fa-linkedin icon-large"></i>
+                    </a>
+
+</h2>
 
 ---
 ## Toolkit

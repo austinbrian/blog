@@ -5,11 +5,11 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2017-06-01T12:56:08-05:00</updated>
+  <updated>2017-06-01T23:55:46-05:00</updated>
   <id>http://localhost:4000//</id>
 
   
-    <title type="html">Data futures</title>
+    <title type="html">Brian Austin</title>
   
 
   
@@ -30,11 +30,11 @@
       
       <title type="html">Donald Trump’s inauguration prompted the most CFPB complaints ever</title>
       
-      <link href="http://localhost:4000/2017/05/24/cfpb-complaints-inauguration/" rel="alternate" type="text/html" title="Donald Trump's inauguration prompted the most CFPB complaints ever" />
+      <link href="http://localhost:4000/cfpb-complaints-inauguration/" rel="alternate" type="text/html" title="Donald Trump's inauguration prompted the most CFPB complaints ever" />
       <published>2017-05-24T00:00:00-05:00</published>
       <updated>2017-05-24T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/05/24/cfpb-complaints-inauguration</id>
-      <content type="html" xml:base="http://localhost:4000/2017/05/24/cfpb-complaints-inauguration/">&lt;p&gt;The &lt;a href=&quot;https://www.consumerfinance.gov/&quot;&gt;Consumer Financial Protection Bureau&lt;/a&gt; (CFPB) has been around since 2011. The organization is charged with policing financial services companies to ensure that they are fairly treating consumers. One of the ways they gather information on consumers’ experiences is by tallying complaints of wrongdoing against companies.&lt;/p&gt;
+      <id>http://localhost:4000/cfpb-complaints-inauguration</id>
+      <content type="html" xml:base="http://localhost:4000/cfpb-complaints-inauguration/">&lt;p&gt;The &lt;a href=&quot;https://www.consumerfinance.gov/&quot;&gt;Consumer Financial Protection Bureau&lt;/a&gt; (CFPB) has been around since 2011. The organization is charged with policing financial services companies to ensure that they are fairly treating consumers. One of the ways they gather information on consumers’ experiences is by tallying complaints of wrongdoing against companies.&lt;/p&gt;
 
 &lt;p&gt;And for Donald Trump’s Inauguration Day, there were more complaints to the CFPB than there have been on any other day.&lt;/p&gt;
 
@@ -82,11 +82,11 @@
       
       <title type="html">In terms of research dollars, Johns Hopkins stands alone</title>
       
-      <link href="http://localhost:4000/2017/05/22/higher-ed-RD-clusters/" rel="alternate" type="text/html" title="In terms of research dollars, Johns Hopkins stands alone" />
+      <link href="http://localhost:4000/higher-ed-RD-clusters/" rel="alternate" type="text/html" title="In terms of research dollars, Johns Hopkins stands alone" />
       <published>2017-05-22T00:00:00-05:00</published>
       <updated>2017-05-22T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/05/22/higher-ed-RD-clusters</id>
-      <content type="html" xml:base="http://localhost:4000/2017/05/22/higher-ed-RD-clusters/">&lt;p&gt;Institutions of higher education are constantly comparing themselves to one another, and one of the ways they do so is using their total amount of funding dollars.&lt;/p&gt;
+      <id>http://localhost:4000/higher-ed-RD-clusters</id>
+      <content type="html" xml:base="http://localhost:4000/higher-ed-RD-clusters/">&lt;p&gt;Institutions of higher education are constantly comparing themselves to one another, and one of the ways they do so is using their total amount of funding dollars.&lt;/p&gt;
 
 &lt;p&gt;But total amount of funding is, at best, a blunt instrument. The National Center for Science and Engineering Statistics (part of the National Science Foundation) releases an annual survey of these research dollars, and breaks them down &lt;a href=&quot;https://ncsesdata.nsf.gov/herd/2015/&quot;&gt;all sorts of ways&lt;/a&gt;, including &lt;a href=&quot;https://ncsesdata.nsf.gov/herd/2015/html/HERD2015_DST_18.html&quot;&gt;by field&lt;/a&gt;.
 &lt;br /&gt;&lt;/p&gt;
@@ -357,11 +357,11 @@
       
       <title type="html">Whitehouse.gov is much less popular after 100 days of Trump</title>
       
-      <link href="http://localhost:4000/2017/05/12/trump-100-days/" rel="alternate" type="text/html" title="Whitehouse.gov is much less popular after 100 days of Trump" />
+      <link href="http://localhost:4000/trump-100-days/" rel="alternate" type="text/html" title="Whitehouse.gov is much less popular after 100 days of Trump" />
       <published>2017-05-12T00:00:00-05:00</published>
       <updated>2017-05-12T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/05/12/trump-100-days</id>
-      <content type="html" xml:base="http://localhost:4000/2017/05/12/trump-100-days/">&lt;p&gt;In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those webpages present a useful window into the way people interact with their government, and into the rhythms of American life.&lt;/p&gt;
+      <id>http://localhost:4000/trump-100-days</id>
+      <content type="html" xml:base="http://localhost:4000/trump-100-days/">&lt;p&gt;In 2017, the primary way most citizens interact with their government is through the internet. Before they go to an office in person, before they write a letter or make a call, they visit a website. As such, the traffic across those webpages present a useful window into the way people interact with their government, and into the rhythms of American life.&lt;/p&gt;
 
 &lt;p&gt;To understand how traffic preferences have changed during the first 100 days of Donald Trump’s presidency, I pulled data on a month’s worth of traffic among all US government websites from &lt;a href=&quot;https://analytics.usa.gov/&quot;&gt;analytics.usa.gov&lt;/a&gt;. The website compiles statistics for the prior 30 days (or 5 minutes, if you’re interested in that). To compare the way activities have changed, I compared data of the prior 30 days that included Trump’s inauguration (the most readily-available data was for Jan. 29th, nine days after his inauguration) and from his 100th day in office, April 29th.&lt;/p&gt;
 
@@ -431,11 +431,11 @@
       
       <title type="html">The most important factor in the 2016 election? Student loans.</title>
       
-      <link href="http://localhost:4000/2017/05/04/clinton_importance_feat/" rel="alternate" type="text/html" title="The most important factor in the 2016 election? Student loans." />
+      <link href="http://localhost:4000/clinton_importance_feat/" rel="alternate" type="text/html" title="The most important factor in the 2016 election? Student loans." />
       <published>2017-05-04T00:00:00-05:00</published>
       <updated>2017-05-04T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/05/04/clinton_importance_feat</id>
-      <content type="html" xml:base="http://localhost:4000/2017/05/04/clinton_importance_feat/">&lt;p&gt;If you took all 3,113 counties in the United States, and wanted to try and guess whether a county would cast more votes for Hillary Clinton or Donald Trump, the most important pieces of information to have be the number of people who claim an education-related deduction or credit.&lt;/p&gt;
+      <id>http://localhost:4000/clinton_importance_feat</id>
+      <content type="html" xml:base="http://localhost:4000/clinton_importance_feat/">&lt;p&gt;If you took all 3,113 counties in the United States, and wanted to try and guess whether a county would cast more votes for Hillary Clinton or Donald Trump, the most important pieces of information to have be the number of people who claim an education-related deduction or credit.&lt;/p&gt;
 
 &lt;p&gt;This finding on student loans is part of my ongoing analysis of the intersection of 2016 voting behavior and tax return information.&lt;/p&gt;
 
@@ -489,11 +489,11 @@ To be sure, these groups of voters are qualitatively different in other measurab
       
       <title type="html">Hillary Clinton won the taxpayer vote and other Tax Day findings</title>
       
-      <link href="http://localhost:4000/2017/04/18/pres_counties/" rel="alternate" type="text/html" title="Hillary Clinton won the taxpayer vote and other Tax Day findings" />
+      <link href="http://localhost:4000/pres_counties/" rel="alternate" type="text/html" title="Hillary Clinton won the taxpayer vote and other Tax Day findings" />
       <published>2017-04-18T00:00:00-05:00</published>
       <updated>2017-04-18T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/04/18/pres_counties</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/18/pres_counties/">&lt;p&gt;Happy (?) Tax Day, everyone.&lt;/p&gt;
+      <id>http://localhost:4000/pres_counties</id>
+      <content type="html" xml:base="http://localhost:4000/pres_counties/">&lt;p&gt;Happy (?) Tax Day, everyone.&lt;/p&gt;
 
 &lt;p&gt;In honor of Tax Day, I wanted to do a small piece of analysis on the way taxpayers voted in the 2016 election. Here are a couple of brief headlines:&lt;/p&gt;
 &lt;ul&gt;
@@ -546,11 +546,11 @@ To be sure, these groups of voters are qualitatively different in other measurab
       
       <title type="html">#mood</title>
       
-      <link href="http://localhost:4000/2017/04/04/mood/" rel="alternate" type="text/html" title="#mood" />
+      <link href="http://localhost:4000/mood/" rel="alternate" type="text/html" title="#mood" />
       <published>2017-04-04T00:00:00-05:00</published>
       <updated>2017-04-04T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/04/04/mood</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/04/mood/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/theo_confetti_angel.jpg&quot; alt=&quot;Theo&quot; /&gt;&lt;/p&gt;</content>
+      <id>http://localhost:4000/mood</id>
+      <content type="html" xml:base="http://localhost:4000/mood/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/austinbrian/blog/master/images/theo_confetti_angel.jpg&quot; alt=&quot;Theo&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -584,11 +584,11 @@ To be sure, these groups of voters are qualitatively different in other measurab
       
       <title type="html">Overfitting the Sweet 16</title>
       
-      <link href="http://localhost:4000/2017/04/03/ncaa_overfitting/" rel="alternate" type="text/html" title="Overfitting the Sweet 16" />
+      <link href="http://localhost:4000/ncaa_overfitting/" rel="alternate" type="text/html" title="Overfitting the Sweet 16" />
       <published>2017-04-03T00:00:00-05:00</published>
       <updated>2017-04-03T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/04/03/ncaa_overfitting</id>
-      <content type="html" xml:base="http://localhost:4000/2017/04/03/ncaa_overfitting/">&lt;p&gt;I have a very simple model for about a quarter of my NCAA bracket predictions: if UNC, move to next round.&lt;/p&gt;
+      <id>http://localhost:4000/ncaa_overfitting</id>
+      <content type="html" xml:base="http://localhost:4000/ncaa_overfitting/">&lt;p&gt;I have a very simple model for about a quarter of my NCAA bracket predictions: if UNC, move to next round.&lt;/p&gt;
 
 &lt;p&gt;This year, that model has worked pretty well.&lt;/p&gt;
 
@@ -756,11 +756,11 @@ To be sure, these groups of voters are qualitatively different in other measurab
       
       <title type="html">Who’s that Lady?</title>
       
-      <link href="http://localhost:4000/2017/03/27/dc-dogs/" rel="alternate" type="text/html" title="Who's that Lady?" />
+      <link href="http://localhost:4000/dc-dogs/" rel="alternate" type="text/html" title="Who's that Lady?" />
       <published>2017-03-27T00:00:00-05:00</published>
       <updated>2017-03-27T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/03/27/dc-dogs</id>
-      <content type="html" xml:base="http://localhost:4000/2017/03/27/dc-dogs/">&lt;p&gt;Let’s say you’re at a local dog park in DC, and you see a dog chasing a ball, doing dog things, and you want to call out for her to come play with you. What should you yell?&lt;/p&gt;
+      <id>http://localhost:4000/dc-dogs</id>
+      <content type="html" xml:base="http://localhost:4000/dc-dogs/">&lt;p&gt;Let’s say you’re at a local dog park in DC, and you see a dog chasing a ball, doing dog things, and you want to call out for her to come play with you. What should you yell?&lt;/p&gt;
 
 &lt;p&gt;Try “Lady” or “Blue.”&lt;/p&gt;
 
@@ -881,11 +881,11 @@ To be sure, these groups of voters are qualitatively different in other measurab
       
       <title type="html">The wild predictive ride of the NCAA first round</title>
       
-      <link href="http://localhost:4000/2017/03/20/ncaa-rd1/" rel="alternate" type="text/html" title="The wild predictive ride of the NCAA first round" />
+      <link href="http://localhost:4000/ncaa-rd1/" rel="alternate" type="text/html" title="The wild predictive ride of the NCAA first round" />
       <published>2017-03-20T00:00:00-05:00</published>
       <updated>2017-03-20T00:00:00-05:00</updated>
-      <id>http://localhost:4000/2017/03/20/ncaa-rd1</id>
-      <content type="html" xml:base="http://localhost:4000/2017/03/20/ncaa-rd1/">&lt;p&gt;Ah, March.&lt;/p&gt;
+      <id>http://localhost:4000/ncaa-rd1</id>
+      <content type="html" xml:base="http://localhost:4000/ncaa-rd1/">&lt;p&gt;Ah, March.&lt;/p&gt;
 
 &lt;p&gt;It’s a time of bright &lt;a href=&quot;http://www.accuweather.com/en/weather-news/noreaster-shuts-down-travel-threatens-to-unleash-blizzard-conditions-in-at-least-8-states/70001093&quot;&gt;spring sunshine&lt;/a&gt;, cherry blossoms, and people everywhere searching their memories for where exactly &lt;a href=&quot;https://en.wikipedia.org/wiki/Xavier_University&quot; title=&quot;Cincinnati&quot;&gt;Xavier University&lt;/a&gt; is.&lt;/p&gt;
 

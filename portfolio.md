@@ -3,19 +3,25 @@ layout: page
 title: "Portfolio"
 permalink: /portfolio/
 ---
-## Voting with their Tax Returns   
-*An analysis of the relationship between deductions taken on income tax returns and county-level voting patterns in the 2016 election*    
+## [Voting with their Tax Returns](../tax_votes)   
+*An analysis of the relationship between deductions taken on income tax returns and county-level voting patterns in the 2016 election.*    
 
-In thinking about the 2016 election, I had a relatively simple question: did Hillary Clinton win among taxpayers?
-
-I started with the logic that Clinton won about 3 million more popular votes in the general election than Donald Trump, and used tax returns as a window into the ways that the areas Trump won are different from the areas Clinton won.
-
-One fun fact: according to a random forest analysis of the effect of all the possible deductions claimed, the most important factor in determining who would win the county was the total amount of student loan dollars claimed as deductions.
-
-[![](images/agi_pp_vs_clinton.png)](https://github.com/austinbrian/DSI-labs/blob/master/president_counties.ipynb)
-
+<p align="center">
+  <img src="../images/agi_pp_vs_clinton.png"></p>
 
 ----
 
 ## Topic modeling with the CFPB database
-*Natural language processing analysis of the topics discussed in complaints to the Consumer Financial Protection Bureau*
+*Natural language processing analysis of the topics discussed in complaints to the Consumer Financial Protection Bureau.*
+
+<span align="center">
+  <img src="../images/all_complaints_line.png">
+</span>
+
+---
+## [Clustering Higher Ed Research Spending](http://nbviewer.jupyter.org/github/austinbrian/DSI-labs/blob/master/Higher%20Ed%20R%26D%20Analysis.ipynb)
+*Used DBSCAN and hierarchical clustering methods to sort more than 300 universities according to the amount of research funding they receive by branch of the university.*    
+
+<p align="center">
+<img src="../images/psy_lifsci_clustered.png">
+</p>

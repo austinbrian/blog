@@ -10,12 +10,12 @@
   
   
   
-  <title>Brian Austin</title>
+  <title>Voting with their Tax Returns</title>
   <meta name="description" content="Long on data.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/images/ideas/">
+  <link rel="canonical" href="http://localhost:4000/tax_votes/">
   
   
   <link rel="alternate" type="application/rss+xml" title="Brian Austin" href="http://localhost:4000/feed.xml">
@@ -26,7 +26,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="bda">
-  <meta name="twitter:title" content="Brian Austin">
+  <meta name="twitter:title" content="Voting with their Tax Returns">
   <meta name="twitter:description" content="Long on data.">
   
     <meta name="twitter:creator" content="bda">
@@ -132,38 +132,32 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">Voting with their Tax Returns</h1>
   </header>
 
   <div class="post-content">
-    <h1>Blog ideas</h1>
-<ul>
-  <li>How viral are my followers’ tweets after accounting for their total follower level?
-..- use the 538 Messi graphs to show retweets vs followers at time of tweet</li>
-  <li>Determining the Uber surcharge?</li>
-  <li>When will a movie go out of a theater? - AKA: how to know when a movie bombs?
-    <ul>
-      <li>use IMDB dataset?</li>
-    </ul>
-  </li>
-  <li>Map my family’s history through web scraping
-    <ul>
-      <li>Full text as html(http://www.afaoa.org/bk_files/Richard_Austin_MA/Bk_Richard_Austin_MA_I111.html)</li>
-      <li>Grandpa:</li>
-      <li>The whole lineup, <a href="http://www.afaoa.org/db_files/Richard_Austin_MA/Richard_Austin_MA_descendants_I111.html">honestly</a></li>
-      <li>Could also trace family pattern through locations listed at their birth and death places</li>
-      <li>Ages</li>
-    </ul>
-  </li>
-  <li>Take the WSJ story on literary word choice and replicate it for WSJ</li>
-  <li>predict presidential approval rating / right direction/wrong track / given some set of inputs like party approval etc</li>
-</ul>
+    <p>In thinking about the 2016 election, I had a relatively simple question: did Hillary Clinton win among taxpayers? I started with the logic that Clinton won about 3 million more popular votes in the general election than Donald Trump, and used tax returns as a window into the ways that the areas Trump won are different from the areas Clinton won.</p>
 
-<h1>Notes on blogging</h1>
-<ul>
-  <li>Make sure your axes are intuitive</li>
-  <li>Pelican is a good CMS for managing markdown files</li>
-</ul>
+<iframe width="800" height="800" src="https://public.tableau.com/views/Clinton-TrumpMarginbyCounty/Story1?:embed=y&amp;:display_count=yes" frameborder="0" allowfullscreen=""></iframe>
+
+<p>If you took all 3,113 counties in the United States, and wanted to try and guess whether a county would cast more votes for Hillary Clinton or Donald Trump, the most important pieces of information to have be the number of people who claim an education-related deduction or credit.</p>
+
+<p>This finding on student loans is part of my ongoing analysis of the intersection of 2016 voting behavior and tax return information.</p>
+
+<p>This analysis was performed using a random forest classifier, which used 124 variables drawn from county-level 2014 IRS data. Variables included aggregate totals and participant counts for each income type and deduction. The dataset was matched by county with the New York Times report of election night votes. Average cross-validated accuracy score using the model’s classification was approximately 0.89 (good!) and an F1 score of 0.88 (not bad!).</p>
+
+<p>To be sure, these groups of voters are qualitatively different in other measurable ways. For instance, the number of farm returns in a county is the next-most impactful feature in the income dataset behind education credits and deductions. Counties with the highest numbers of these returns were the most likely in the data to cast more returns for Trump than Clinton.</p>
+
+<p>But these findings largely conform to the behaviors we might expect of the electorate. Those with higher levels of education (especially those at high-cost liberal arts colleges) are most likely to inhabit counties that vote for Clinton. Farmers were more likely to vote Trump.</p>
+
+<p>Perhaps more interesting are the distinctions that weren’t found in the dataset. Most importantly, total taxable income did not emerge as an especially valuable predictor.</p>
+
+<p><img src="https://raw.githubusercontent.com/austinbrian/blog/master/images/agi_pp_vs_clinton.png" alt="" />
+<br /></p>
+
+<p>The figure above demonstrates the distribution of income, as separated by Clinton’s margin over Trump (or vice versa). Each blue dot represents a county in which more people voted for Clinton than Trump, and each red dot shows a county with more Trump votes.</p>
+
+<p>While the sheer numbers for the Trump voters are significantly greater - Trump won about 84 percent of US counties - the distribution of incomes is relatively similar between them.</p>
 
   </div>
 
