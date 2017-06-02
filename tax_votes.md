@@ -55,7 +55,7 @@ Clinton Lose       0.90      0.98      0.94       656
 
 To be sure, these groups of voters are qualitatively different in other measurable ways. For instance, the number of farm returns in a county is the next-most impactful feature in the income dataset behind education credits and deductions. Counties with the highest numbers of these returns were the most likely in the data to cast more returns for Trump than Clinton.
 
-![](/images/clinton_feature_importances_bar.png)
+![](https://raw.githubusercontent.com/austinbrian/blog/master/images/clinton_feature_importances_bar.png)
 
 The feature ids here don't mean much, but four in the top six in terms of importance are related to paying for education.
 
