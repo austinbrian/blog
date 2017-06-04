@@ -52,6 +52,9 @@
 <loc>http://localhost:4000/portfolio/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tax_votes/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/images/ideas/</loc>
 </url>
 <url>

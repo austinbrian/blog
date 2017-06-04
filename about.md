@@ -40,26 +40,25 @@ Brian is a Washington, DC-based data scientist originally from North Carolina. H
 ### Kaiser Associates
 **Washington, DC**   
 *Kaiser Associates is a boutique strategy consulting firm for Fortune 500 companies in the healthcare, technology, and consumer goods sectors.*   
-**Consultant, Business Strategy & Operations**
-*November 2014 – October 2016*
+**Consultant, Business Strategy & Operations** *November 2014 – October 2016*
 * Developed market assessments for products and services across industries through primary and secondary research, including: health economics analysis for $300 million medical device market, market entry for a new product category for a consumer goods company, and assessment of a firm’s value proposition for a private equity valuation and acquisition strategy.
 * Presented market data on industry standards for operational benchmarks to senior leadership in the healthcare, technology, and consumer goods spaces.   
 
 ### The Advisory Board Company
 **Washington, DC**   
 *The Education Advisory Board division provides strategic research and technology to university executives through qualitative research.*  
-**Analyst, Strategic Higher Education Research** *October 2013 – October 2014*
-**Research Associate, Custom Higher Education Research** *January – October 2013*  
+**Analyst, Strategic Higher Education Research** *October 2013 – October 2014*   
+**Research Associate, Custom Higher Education Research** *January – October 2013*     
 * Produced original best practice research regarding student retention and graduation for at-risk students, conducting interviews with more than 150 university executives.
 * Provided real-time data analysis of organizational trends to more than 120 university partners.
 * Authored more than 30 original research reports as recommendations for institutional stakeholders on higher education issues from budget models to minority recruitment and retention.
 * Conducted market opportunity analyses to inform program choices for 20+ colleges and universities.   
 
 ### Greenberg Quinlan Rosner Research
-**Washington, DC**
+**Washington, DC**   
 *Global strategic consultancy and political polling firm serving campaigns, non-profits and corporations.*  
-**Project Associate, Domestic Political Consulting Division** *January – December 2012*
-**Research Associate, Operations Management Group** *September 2010 – December 2011*
+**Project Associate, Domestic Political Consulting Division** *January – December 2012*   
+**Research Associate, Operations Management Group** *September 2010 – December 2011*   
 * Analyzed polling data and drafted messaging strategies for top-tier political candidates, issue campaigns, and campaign committees, contributing language and analyzing data for more than 20 political races in 2012.
 * Managed project execution and methodology, negotiated budget expenditures of more than $1 million in qualitative and quantitative research at a net profit of at least $250,000 in 2011.
 * Developed innovative sampling methodology for mobile phones, web panels and traditional landlines, improving response rates by 25% among targeted demographics.
