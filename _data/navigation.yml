@@ -4,9 +4,9 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Portfolio"
-    url: /portfolio/
+    url: https://austinbrian.github.io/portfolio/
   - title: "About"
-    url: /about/
+    url: https://austinbrian.github.io/about/
   - title: "Blog Archives"
     url: /blog/archives/
   - title: <h2 class="fa fa-twitter"></h2>
