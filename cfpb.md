@@ -20,4 +20,4 @@ This graph shows the number of complaints for every day since the organization b
 
 ![](/images/cfpb/all_complaints_scatter.png "That highest orange point is Donald Trump's Inauguration")
 
-Complaints include information regarding the company
+Complaints include information regarding the company, the product, sub-products, as well as information on whether or not the company in question responded to the consumer.
