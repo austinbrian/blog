@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "Topic modeling complaints to the CFPB"
 meta: "CFPB, civic engagement, complaints database"
 ---
