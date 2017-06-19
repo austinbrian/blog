@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2017-06-05T22:31:54-05:00</updated>
+  <updated>2017-06-18T19:18:41-05:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -24,6 +24,44 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">CFPB enforcement actions spike consumer complaints, but don’t change them</title>
+      
+      <link href="http://localhost:4000/company_cfpb_complaints/" rel="alternate" type="text/html" title="CFPB enforcement actions spike consumer complaints, but don't change them" />
+      <published>2017-06-01T00:00:00-05:00</published>
+      <updated>2017-06-01T00:00:00-05:00</updated>
+      <id>http://localhost:4000/company_cfpb_complaints</id>
+      <content type="html" xml:base="http://localhost:4000/company_cfpb_complaints/">&lt;p&gt;When consumer complaints come to the &lt;a href=&quot;https://www.consumerfinance.gov/&quot;&gt;Consumer Financial Protection Bureau&lt;/a&gt; (CFPB) complaints database, consumers&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Brian Austin</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">When consumer complaints come to the Consumer Financial Protection Bureau (CFPB) complaints database, consumers</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
